@@ -3,7 +3,7 @@ import bridge from '@vkontakte/vk-bridge';
 import { View, SplitLayout, SplitCol, ScreenSpinner } from '@vkontakte/vkui';
 import { useActiveVkuiLocation } from '@vkontakte/vk-mini-apps-router';
 
-import { Persik, Home, Registration, Charcard, Game, Revards, Ld, Abilities } from './panels';
+import { Persik, Home, Registration, Charcard, Game, Revards, Ld, Abilities, Cyborgs } from './panels';
 import { DEFAULT_VIEW_PANELS } from './routes';
 
 export const App = () => {
@@ -23,6 +23,7 @@ export const App = () => {
           <Revards id="revards" />
           <Ld id="ld" />
           <Abilities id="abilities" />
+          <Cyborgs id="cyborgs" />
           <Charcard id="charcard" />
         </View>
       </SplitCol>

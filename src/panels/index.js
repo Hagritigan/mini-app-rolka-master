@@ -6,3 +6,4 @@ export { Game } from './Game';
 export { Revards } from './Revards';
 export { Ld } from './Ld';
 export { Abilities } from './Abilities';
+export { Cyborgs } from './Cyborgs'

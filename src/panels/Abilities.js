@@ -161,7 +161,7 @@ export const Abilities = ({ id }) => {
                             <br />
                             <br />
                             <div className='text-end'>
-                                Более детально это возможно сделать в соответствующем разделе: киборги.
+                                Более детально это возможно сделать в соответствующем разделе: <div onClick={() => routeNavigator.replace({pathname: '/cyborgs'})}> киборги </div>
                             </div>  
                         </Div>
                     </Accordion.Content>
