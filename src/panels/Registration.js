@@ -52,7 +52,7 @@ export const Registration = ({ id }) => {
   const routeNavigator = useRouteNavigator();
 
   const listInfo = info.map((info) => 
-    <Div key={info} style={{ margin: 10 }}>
+    <Div key={info.title} style={{ margin: 10 }}>
        { info.title } 
     </Div>
   );
@@ -60,12 +60,13 @@ export const Registration = ({ id }) => {
   return (
     <Panel id={id}>
       <PanelHeader>Регистрация и анкета. Действия после принятия анкеты</PanelHeader>
-      <Button size="m" onClick={() => routeNavigator.back()}>Назад</Button>
+      <Button size="m" onClick={() => routeNavigator.back()} className='back-button'>Назад</Button>
       <Group>
         <Div>
           {listInfo}
         </Div>
       </Group>
+      <Button size="m" onClick={() => routeNavigator.back()} className='back-button'>Назад</Button>
     </Panel>
   );
 };

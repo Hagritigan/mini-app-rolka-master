@@ -14,12 +14,14 @@ try {
     scope: 'friends,status'
     })
     .then( (data) => { 
+      console.log(1);
       console.log(data);
       if (data.access_token) {
         console.log(data);
         // Ключ доступа пользователя получен
       }
     })
+    .finally (()=>console.log('shit'))
     .catch( (error) => {
       // Ошибка
       console.log(error);
@@ -27,6 +29,13 @@ try {
 } catch(e) {
   console.log(e);
 }
+
+console.log(123);
+
+vkBridge.send("VKWebAppGetAuthToken", {"app_id": 52651787, "scope": "friends,status"});
+
+
+// vkBridge('VKWebAppAccessTokenReceived ');
 
 
 const info = {
@@ -122,7 +131,7 @@ export const Charcard = ({ id }) => {
   return (
     <Panel id={id}>
       <PanelHeader>Карточка персонажа</PanelHeader>
-      <Button size="m" onClick={() => routeNavigator.back()}>Назад</Button>
+      <Button size="m" onClick={() => vkBridge.send("VKWebAppGetAuthToken", {"app_id": 52651787, "scope": "friends,status"})}>Назад</Button>
       <Group>
         <Div>
           {info.name}

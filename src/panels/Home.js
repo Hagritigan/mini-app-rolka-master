@@ -10,19 +10,19 @@ const rules = [
   },
   {
     title: '2. Игра и игровые события',
-    link: 'game-rule'
+    link: 'game'
   },
   {
     title: '3. Баллы, оценка квестов, наградные листовки и их получение',
-    link: 'revard-rule'
+    link: 'revards'
   },
   {
     title: '4. Личное Дело',
-    link: 'ld-rule'
+    link: 'ld'
   },
   {
     title: '5. Способности и развитие',
-    link: 'abilites-rule'
+    link: 'abilities'
   },
   {
     title: '6. Возможности и ограничения',
@@ -79,9 +79,9 @@ export const Home = ({ id }) => {
         <Div className="some">
           {listRules}
         </Div>
-        <Div>
+        {/* <Div>
           <a href="https://developer.mozilla.org">MDN</a>
-        </Div>
+        </Div> */}
       </Group>
     </Panel>
   );
