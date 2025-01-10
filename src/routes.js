@@ -19,7 +19,8 @@ export const DEFAULT_VIEW_PANELS = {
   REVARDS: 'revards',
   LD: 'ld',
   ABILITIES: 'abilities',
-  CYBORGS: 'cyborgs'
+  CYBORGS: 'cyborgs',
+  Df: 'df',
 };
 
 export const routes = RoutesConfig.create([
@@ -34,6 +35,7 @@ export const routes = RoutesConfig.create([
       createPanel(DEFAULT_VIEW_PANELS.LD, `/${DEFAULT_VIEW_PANELS.LD}`, []),
       createPanel(DEFAULT_VIEW_PANELS.ABILITIES, `/${DEFAULT_VIEW_PANELS.ABILITIES}`, []),
       createPanel(DEFAULT_VIEW_PANELS.CYBORGS, `/${DEFAULT_VIEW_PANELS.CYBORGS}`, []),
+      createPanel(DEFAULT_VIEW_PANELS.Df, `/${DEFAULT_VIEW_PANELS.Df}`, []),
     ]),
   ]),
 ]);

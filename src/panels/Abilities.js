@@ -185,9 +185,9 @@ export const Abilities = ({ id }) => {
                             силы фрукта. Пример - в “Арлонг Парке” Гэндзо и Нодзико могли растягивать тело Луффи, полностью находящееся под водой.
                             <br />
                             <br />
-                            <div className='text-end'>
-                                Ознакомиться детально с этим разделом нашей ролевой возможно перейдя по ссылке.
-                            </div>
+                            <span className='justify-end' style={{gap: '6px'}}>
+                                Ознакомиться детально с этим разделом нашей ролевой возможно <span onClick={() => routeNavigator.replace({pathname: '/df'})} className='link'>перейдя по ссылке</span>
+                            </span>  
                         </Div>
                     </Accordion.Content>
                 </Accordion>
