@@ -226,9 +226,9 @@ export const Abilities = ({ id }) => {
                             исключительно на органику и не может сочетаться с протезированием/кибернизацией.
                             <br />
                             <br />
-                            <div className='text-end'>
-                                Узнать примеры развития или базовые возможности Сэймэй Кикан вы можете в разделе этой способности.     
-                            </div>
+                            <span className='justify-end' style={{gap: '6px'}}>
+                                Узнать примеры развития или базовые возможности Сэймэй Кикан вы можете в <span onClick={() => routeNavigator.replace({pathname: '/seimei'})} className='link'>разделе этой способности.</span>
+                            </span> 
                         </Div>  
                     </Accordion.Content>
                 </Accordion>

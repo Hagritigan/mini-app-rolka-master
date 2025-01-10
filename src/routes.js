@@ -22,6 +22,7 @@ export const DEFAULT_VIEW_PANELS = {
   CYBORGS: 'cyborgs',
   DF: 'df',
   HAKI: 'haki',
+  SEIMEI: 'seimei'
 };
 
 export const routes = RoutesConfig.create([
@@ -38,6 +39,7 @@ export const routes = RoutesConfig.create([
       createPanel(DEFAULT_VIEW_PANELS.CYBORGS, `/${DEFAULT_VIEW_PANELS.CYBORGS}`, []),
       createPanel(DEFAULT_VIEW_PANELS.DF, `/${DEFAULT_VIEW_PANELS.DF}`, []),
       createPanel(DEFAULT_VIEW_PANELS.HAKI, `/${DEFAULT_VIEW_PANELS.HAKI}`, []),
+      createPanel(DEFAULT_VIEW_PANELS.SEIMEI, `/${DEFAULT_VIEW_PANELS.SEIMEI}`, []),
     ]),
   ]),
 ]);

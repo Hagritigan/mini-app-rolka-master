@@ -68,9 +68,25 @@ a {
     word-wrap: break-word;
 }
 
+.half-block {
+    width: 50%;
+}
+
+.half-flex {
+    display: flex;
+}
+
 @media all and (max-device-width: 600px) {
     .vkuiDiv {
         padding: 0 4px;
         margin: none;
+    }
+
+    .half-block {
+        width: 100%;
+    }
+
+    .half-flex {
+        display: block;
     }
 }
