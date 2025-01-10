@@ -160,9 +160,9 @@ export const Abilities = ({ id }) => {
                             а также условностей, которые игрок обязывается выполнять и с которым должен ознакомиться. 
                             <br />
                             <br />
-                            <div className='text-end'>
-                                Более детально это возможно сделать в соответствующем разделе: <div onClick={() => routeNavigator.replace({pathname: '/cyborgs'})}> киборги </div>
-                            </div>  
+                            <span className='justify-end' style={{gap: '6px'}}>
+                                Более детально это возможно сделать в соответствующем разделе: <span onClick={() => routeNavigator.replace({pathname: '/cyborgs'})} className='link'> киборги</span>
+                            </span>  
                         </Div>
                     </Accordion.Content>
                 </Accordion>
