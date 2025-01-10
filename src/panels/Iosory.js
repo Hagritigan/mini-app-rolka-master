@@ -1,8 +1,6 @@
 import { Panel, PanelHeader, Header, Button, Group, Cell, Div, Avatar, Accordion } from '@vkontakte/vkui';
 import { useRouteNavigator } from '@vkontakte/vk-mini-apps-router';
 import './App.css';
-import { AccordionSummary } from '@vkontakte/vkui/dist/components/Accordion/AccordionSummary';
-import { AccordionContent } from '@vkontakte/vkui/dist/components/Accordion/AccordionContent';
 
 export const Iosory = ({ id }) => {
   const routeNavigator = useRouteNavigator();

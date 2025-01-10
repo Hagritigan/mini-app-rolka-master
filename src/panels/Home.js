@@ -26,7 +26,7 @@ const rules = [
   },
   {
     title: '6. Возможности и ограничения',
-    link: 'restriction-rule'
+    link: 'restrictions'
   },
   {
     title: '7. Пираты',

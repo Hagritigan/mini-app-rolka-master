@@ -31,7 +31,6 @@ export const Ld = ({ id }) => {
     <Div key={info.title} style={{ margin: 10 }}>
        <div dangerouslySetInnerHTML={{ __html: info.title }}></div>
     </Div>
-    
   );
 
   return (

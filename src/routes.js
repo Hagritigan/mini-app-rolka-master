@@ -23,7 +23,8 @@ export const DEFAULT_VIEW_PANELS = {
   DF: 'df',
   HAKI: 'haki',
   SEIMEI: 'seimei',
-  IOSORY: 'iosory'
+  IOSORY: 'iosory',
+  RESTRICTIONS: 'restrictions',
 };
 
 export const routes = RoutesConfig.create([
@@ -42,6 +43,7 @@ export const routes = RoutesConfig.create([
       createPanel(DEFAULT_VIEW_PANELS.HAKI, `/${DEFAULT_VIEW_PANELS.HAKI}`, []),
       createPanel(DEFAULT_VIEW_PANELS.SEIMEI, `/${DEFAULT_VIEW_PANELS.SEIMEI}`, []),
       createPanel(DEFAULT_VIEW_PANELS.IOSORY, `/${DEFAULT_VIEW_PANELS.IOSORY}`, []),
+      createPanel(DEFAULT_VIEW_PANELS.RESTRICTIONS, `/${DEFAULT_VIEW_PANELS.RESTRICTIONS}`, []),
     ]),
   ]),
 ]);
