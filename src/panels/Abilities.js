@@ -205,9 +205,9 @@ export const Abilities = ({ id }) => {
                             то и взяться ей неоткуда.
                             <br />
                             <br />
-                            <div className='text-end'>
-                                Более детальный взгляд на воли и их развитие вы можете увидеть в соответствующем разделе.  
-                            </div>  
+                            <span className='justify-end' style={{gap: '6px'}}>
+                                Более детальный взгляд на воли и их развитие вы можете увидеть в <span onClick={() => routeNavigator.replace({pathname: '/haki'})} className='link'>соответствующем разделе</span>
+                            </span> 
                         </Div>
                     </Accordion.Content>
                 </Accordion>

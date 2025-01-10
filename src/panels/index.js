@@ -8,3 +8,4 @@ export { Ld } from './Ld';
 export { Abilities } from './Abilities';
 export { Cyborgs } from './Cyborgs';
 export { Df } from './Df';
+export { Haki } from './Haki';
