@@ -76,6 +76,10 @@ a {
     display: flex;
 }
 
+.text-gray {
+    color: #626d7a;
+}
+
 @media all and (max-device-width: 600px) {
     .vkuiDiv {
         padding: 0 4px;

@@ -244,9 +244,9 @@ export const Abilities = ({ id }) => {
                             интеграции в реалии ролевой.
                             <br />
                             <br />
-                            <div className='text-end'>
-                                Ознакомиться детально с направлением и развитием этой способности возможно в разделе Ёсо-рю.
-                            </div>
+                            <span className='justify-end' style={{gap: '6px'}}>
+                            Ознакомиться детально с направлением и развитием этой способности возможно в <span onClick={() => routeNavigator.replace({pathname: '/iosory'})} className='link'>разделе Ёсо-рю.</span>
+                            </span> 
                         </Div>
                     </Accordion.Content>
                 </Accordion>
