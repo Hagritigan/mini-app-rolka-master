@@ -1,8 +1,6 @@
 import { Panel, PanelHeader, Header, Button, Group, Cell, Div, Avatar, ModalCard, ModalPage, Accordion  } from '@vkontakte/vkui';
 import { useRouteNavigator } from '@vkontakte/vk-mini-apps-router';
 import './App.css';
-import { AccordionSummary } from '@vkontakte/vkui/dist/components/Accordion/AccordionSummary';
-import { AccordionContent } from '@vkontakte/vkui/dist/components/Accordion/AccordionContent';
 
 export const Cyborgs = ({ id }) => {
   const routeNavigator = useRouteNavigator();
@@ -515,7 +513,7 @@ export const Cyborgs = ({ id }) => {
       <Group>
         <Accordion>
           <Accordion.Summary iconPosition="before"><b>Высокий уровень</b></Accordion.Summary>
-          <AccordionContent>
+          <Accordion.Content>
             <Div>
               <div style={{fontSize: '18px'}}><b>Высокий уровень развития киборгов</b></div>
               <br />
@@ -671,7 +669,7 @@ export const Cyborgs = ({ id }) => {
                 65 баллов: 50%
               </div>
             </Div>
-          </AccordionContent>
+          </Accordion.Content>
         </Accordion>
       </Group>
       <Button size="m" onClick={() => routeNavigator.replace({pathname: '/abilities'})} className='back-button'>Назад</Button>

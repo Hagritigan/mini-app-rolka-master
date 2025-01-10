@@ -12,3 +12,4 @@ export { Seimei } from './Seimei';
 export { Df } from './Df';
 export { Iosory } from './Iosory';
 export { Restrictions } from './Restrictions';
+export { Pirates } from './Pirates';

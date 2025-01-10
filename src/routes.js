@@ -25,6 +25,7 @@ export const DEFAULT_VIEW_PANELS = {
   SEIMEI: 'seimei',
   IOSORY: 'iosory',
   RESTRICTIONS: 'restrictions',
+  PIRATES: 'pirates',
 };
 
 export const routes = RoutesConfig.create([
@@ -44,6 +45,7 @@ export const routes = RoutesConfig.create([
       createPanel(DEFAULT_VIEW_PANELS.SEIMEI, `/${DEFAULT_VIEW_PANELS.SEIMEI}`, []),
       createPanel(DEFAULT_VIEW_PANELS.IOSORY, `/${DEFAULT_VIEW_PANELS.IOSORY}`, []),
       createPanel(DEFAULT_VIEW_PANELS.RESTRICTIONS, `/${DEFAULT_VIEW_PANELS.RESTRICTIONS}`, []),
+      createPanel(DEFAULT_VIEW_PANELS.PIRATES, `/${DEFAULT_VIEW_PANELS.PIRATES}`, []),
     ]),
   ]),
 ]);

@@ -30,7 +30,7 @@ const rules = [
   },
   {
     title: '7. Пираты',
-    link: 'pirates-rule'
+    link: 'pirates'
   },
   {
     title: '8. Революционная армия',

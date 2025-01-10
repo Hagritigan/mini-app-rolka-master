@@ -47,40 +47,40 @@ export const Iosory = ({ id }) => {
                 <br />
                 <Accordion>
                     <Accordion.Summary iconPosition="before"><b>• Hi-ryu [火流] – «огненный поток».</b></Accordion.Summary>
-                    <AccordionContent>
+                    <Accordion.Content>
                         <Div>
                             Способность фехтовальщиком опалять свой клинок, подчиняя огонь в незначительной степени, позволяя себе использовать 
                             пламя с мечом. Не имея клинка – мечник лишается своего орудия, словно рук, теряя опцию использовать навык.
                         </Div>
-                    </AccordionContent>
+                    </Accordion.Content>
                 </Accordion>
                 <Accordion>
                     <Accordion.Summary iconPosition="before"><b>• Suiryu [水流] – «водный поток».</b></Accordion.Summary>
-                    <AccordionContent>
+                    <Accordion.Content>
                         <Div>
                             Собирая влагу из воздуха мечник способен использовать всю гибкость и уникальные свойства жидкой воды, наполняя 
                             ею свое острие. Не имея клинка – мечник лишается своего орудия, словно рук, теряя опцию использовать навык.
                         </Div>
-                    </AccordionContent>
+                    </Accordion.Content>
                 </Accordion>
                 <Accordion>
                     <Accordion.Summary iconPosition="before"><b>• Furyu [風流] – «воздушный поток».</b></Accordion.Summary>
-                    <AccordionContent>
+                    <Accordion.Content>
                         <Div>
                             Несмотря на то, что уже с определенной планки каждый мечник в том или ином виде подчинил себе воздух, 
                             позволяя создавать воздушные лезвия, с навыком Фурю – человек становится поистине опасным мастером слешей. 
                             Но, как и все фехтовальщики, без своего меча – лишь роскошный авантюрист, способный убегать.
                         </Div>
-                    </AccordionContent>
+                    </Accordion.Content>
                 </Accordion>
                 <Accordion>
                     <Accordion.Summary iconPosition="before"><b>• Sekiryu [石流] – «каменный поток».</b></Accordion.Summary>
-                    <AccordionContent>
+                    <Accordion.Content>
                         <Div>
                             Земля – это уверенная почва под ногами. Фехтовальшик, что обуздал Секирю – обуздал мощь камня, его стойкость 
                             и жесткость. Удары сильны и тяжелы, словно мощь горы опускается на оппонента. Но забрать меч и кто ты без него?
                         </Div>
-                    </AccordionContent>
+                    </Accordion.Content>
                 </Accordion>
                 <br />
                 <br />
