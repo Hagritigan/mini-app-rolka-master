@@ -34,7 +34,7 @@ const rules = [
   },
   {
     title: '8. Революционная армия',
-    link: 'ra-rule'
+    link: 'ra'
   },
   {
     title: '9. Морской Дозор',

@@ -121,4 +121,8 @@ td {
     .mobile-only {
         display: block;
     }
+
+    .main_wrrapper {
+        padding: 8px;
+    }
 }
