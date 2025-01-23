@@ -87,7 +87,7 @@ export const Pirates = ({ id }) => {
                                     <Accordion.Summary iconPosition="before"><b>30кк</b></Accordion.Summary>
                                     <Accordion.Content>
                                         <Div>
-                                            <ul>
+                                            <ul className='mobile-bottom-border'>
                                                 <li>Боевой бот 25%<span class="text-gray"><sup>1</sup></span>, 1 слот стандартный боевой<span class="text-gray"><sup>2</sup></span>, 1 слот небоевой</li>
                                                 <li>5 боевых статистов<span class="text-gray"><sup>3</sup></span></li>
                                                 <li>Скидка 10% на покупку корабля в Магазине</li>
@@ -99,7 +99,7 @@ export const Pirates = ({ id }) => {
                                     <Accordion.Summary iconPosition="before"><b>100кк</b></Accordion.Summary>
                                     <Accordion.Content>
                                         <Div>
-                                            <ul>
+                                            <ul className='mobile-bottom-border'>
                                                 <li>Улучшение бота 25% до 50%, +1 слот боевой (+зоаны<span class="text-gray"><sup>4</sup></span>)</li>
                                                 <li>20 боевых статистов</li>
                                                 <li>Скидка 25% на покупку корабля в Магазине</li> 
@@ -111,7 +111,7 @@ export const Pirates = ({ id }) => {
                                     <Accordion.Summary iconPosition="before"><b>250кк</b></Accordion.Summary>
                                     <Accordion.Content>
                                         <Div>
-                                            <ul>
+                                            <ul className='mobile-bottom-border'>
                                                 <li>Боевой бот 75%, 1 слот стандартный боевой, 1 слот боевой (зоаны\парамеция), 1 слот небоевой</li>
                                                 <li>Улучшение бота 25-50% до 75%, +1 слот боевой (+зоаны, парамеция)</li>
                                                 <li>35 боевых статистов&nbsp;<strong>ИЛИ</strong>&nbsp;Скидка 40% на покупку корабля в Магазине</li>
@@ -123,7 +123,7 @@ export const Pirates = ({ id }) => {
                                     <Accordion.Summary iconPosition="before"><b>500кк</b></Accordion.Summary>
                                     <Accordion.Content>
                                         <Div>
-                                            <ul>
+                                            <ul className='mobile-bottom-border'>
                                                 <li>Боевой бот 75%, 3 слота боевых (стандартный, зоан\миф\парамеция, ВН или ВВ), 1 слот небоевой</li>
                                                 <li>Улучшение бота 25-50% до 75%, +1 слот боевой (+зоаны, миф, парамеция, ВН, ВВ)</li>
                                                 <li>50 боевых статистов&nbsp;<strong>ИЛИ</strong>&nbsp;Скидка 50% на покупку корабля в Магазине</li>
@@ -135,7 +135,7 @@ export const Pirates = ({ id }) => {
                                     <Accordion.Summary iconPosition="before"><b>750кк</b></Accordion.Summary>
                                     <Accordion.Content>
                                         <Div>
-                                            <ul>
+                                            <ul className='mobile-bottom-border'>
                                                 <li>Боевой бот 75%, 3 слота боевых (стандартный, зоан\миф\парамеция, ВН или ВВ), 1 слот небоевойe</li>
                                                 <li>Улучшение бота 25-50% до 75%, +1 слот боевой (+зоаны, миф, парамеция, ВН, ВВ)</li>
                                                 <li>70 боевых статистов&nbsp;<strong>ИЛИ</strong>&nbsp;Карта сокровищ</li>
@@ -147,7 +147,7 @@ export const Pirates = ({ id }) => {
                                     <Accordion.Summary iconPosition="before"><b>1000кк</b></Accordion.Summary>
                                     <Accordion.Content>
                                         <Div>
-                                            <ul>
+                                            <ul className='mobile-bottom-border'>
                                                 <td>Боевой бот 75%, 4 слота боевых (стандартный, зоан\доисторический\миф\парамеция, ВН или ВВ), 1 слот небоевой</td>
                                                 <td>Улучшение бота 25-50% до 75%, +1 слот боевой (+зоаны, миф, парамеция, ВН, ВВ)</td>
                                                 <td>100 боевых статистов&nbsp;<strong>ИЛИ</strong>&nbsp;Особая карта сокровищ</td>

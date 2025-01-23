@@ -14,3 +14,4 @@ export { Iosory } from './Iosory';
 export { Restrictions } from './Restrictions';
 export { Pirates } from './Pirates';
 export { Ra } from './Ra';
+export { Marine } from './Marine';

@@ -38,7 +38,7 @@ const rules = [
   },
   {
     title: '9. Морской Дозор',
-    link: 'marine-rule'
+    link: 'marine'
   },
   {
     title: '10. Сайфер Пол',
