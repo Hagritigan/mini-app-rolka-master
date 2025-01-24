@@ -17,3 +17,4 @@ export { Ra } from './Ra';
 export { Marine } from './Marine';
 export { Cp } from './Cp';
 export { Equipment } from './Equipment';
+export { Races } from './Races';

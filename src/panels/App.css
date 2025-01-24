@@ -111,7 +111,28 @@ td {
 
 .mobile-bottom-border {}
 
+.giant-img {
+    width: 30%;
+    float: right;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.giant-img-mobile {
+    display: none;
+}
+
 @media all and (max-device-width: 600px) {
+    .giant-img {
+        display: none;
+    }
+
+    .giant-img-mobile {
+        display: inline;
+        width: 100%;
+        border-radius: 10px;
+    }
+
     .vkuiDiv {
         padding: 0 4px;
         margin: none;

@@ -50,7 +50,7 @@ const rules = [
   },
   {
     title: '12. Расы',
-    link: 'race-rule'
+    link: 'races'
   },
   {
     title: '13. Система восстановления',

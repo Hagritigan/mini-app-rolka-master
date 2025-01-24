@@ -30,6 +30,7 @@ export const DEFAULT_VIEW_PANELS = {
   MARINE: 'marine',
   CP: 'cp',
   EQUIPMENT: 'equipment',
+  RACES: 'races',
 };
 
 export const routes = RoutesConfig.create([
@@ -54,6 +55,7 @@ export const routes = RoutesConfig.create([
       createPanel(DEFAULT_VIEW_PANELS.MARINE, `/${DEFAULT_VIEW_PANELS.MARINE}`, []),
       createPanel(DEFAULT_VIEW_PANELS.CP, `/${DEFAULT_VIEW_PANELS.CP}`, []),
       createPanel(DEFAULT_VIEW_PANELS.EQUIPMENT, `/${DEFAULT_VIEW_PANELS.EQUIPMENT}`, []),
+      createPanel(DEFAULT_VIEW_PANELS.RACES, `/${DEFAULT_VIEW_PANELS.RACES}`, []),
     ]),
   ]),
 ]);
