@@ -161,7 +161,7 @@ export const Abilities = ({ id }) => {
                             <br />
                             <br />
                             <span className='justify-end' style={{gap: '6px'}}>
-                                Более детально это возможно сделать в соответствующем разделе: <span onClick={() => routeNavigator.replace({pathname: '/cyborgs'})} className='link'> киборги</span>
+                                Более детально это возможно сделать в соответствующем разделе: <span onClick={() => routeNavigator.push({pathname: '/cyborgs'})} className='link'> киборги</span>
                             </span>  
                         </Div>
                     </Accordion.Content>
@@ -186,7 +186,7 @@ export const Abilities = ({ id }) => {
                             <br />
                             <br />
                             <span className='justify-end' style={{gap: '6px'}}>
-                                Ознакомиться детально с этим разделом нашей ролевой возможно <span onClick={() => routeNavigator.replace({pathname: '/df'})} className='link'>перейдя по ссылке</span>
+                                Ознакомиться детально с этим разделом нашей ролевой возможно <span onClick={() => routeNavigator.push({pathname: '/df'})} className='link'>перейдя по ссылке</span>
                             </span>  
                         </Div>
                     </Accordion.Content>
@@ -206,7 +206,7 @@ export const Abilities = ({ id }) => {
                             <br />
                             <br />
                             <span className='justify-end' style={{gap: '6px'}}>
-                                Более детальный взгляд на воли и их развитие вы можете увидеть в <span onClick={() => routeNavigator.replace({pathname: '/haki'})} className='link'>соответствующем разделе</span>
+                                Более детальный взгляд на воли и их развитие вы можете увидеть в <span onClick={() => routeNavigator.push({pathname: '/haki'})} className='link'>соответствующем разделе</span>
                             </span> 
                         </Div>
                     </Accordion.Content>
@@ -227,7 +227,7 @@ export const Abilities = ({ id }) => {
                             <br />
                             <br />
                             <span className='justify-end' style={{gap: '6px'}}>
-                                Узнать примеры развития или базовые возможности Сэймэй Кикан вы можете в <span onClick={() => routeNavigator.replace({pathname: '/seimei'})} className='link'>разделе этой способности.</span>
+                                Узнать примеры развития или базовые возможности Сэймэй Кикан вы можете в <span onClick={() => routeNavigator.push({pathname: '/seimei'})} className='link'>разделе этой способности.</span>
                             </span> 
                         </Div>  
                     </Accordion.Content>
@@ -245,7 +245,7 @@ export const Abilities = ({ id }) => {
                             <br />
                             <br />
                             <span className='justify-end' style={{gap: '6px'}}>
-                            Ознакомиться детально с направлением и развитием этой способности возможно в <span onClick={() => routeNavigator.replace({pathname: '/iosory'})} className='link'>разделе Ёсо-рю.</span>
+                            Ознакомиться детально с направлением и развитием этой способности возможно в <span onClick={() => routeNavigator.push({pathname: '/iosory'})} className='link'>разделе Ёсо-рю.</span>
                             </span> 
                         </Div>
                     </Accordion.Content>

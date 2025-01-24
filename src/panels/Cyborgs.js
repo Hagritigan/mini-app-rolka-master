@@ -15,7 +15,7 @@ export const Cyborgs = ({ id }) => {
   return (
     <Panel id={id}>
       <PanelHeader>Киборги</PanelHeader>
-      <Button size="m" onClick={() => routeNavigator.replace({pathname: '/abilities'})} className='back-button'>Назад</Button>
+      <Button size="m" onClick={() => routeNavigator.push({pathname: '/abilities'})} className='back-button'>Назад</Button>
       <Group>
         <Div>
           По мере замены частей тел киборга, тот может заменить почти все органы в своём теле, за исключением лишь двух. 
@@ -672,7 +672,7 @@ export const Cyborgs = ({ id }) => {
           </Accordion.Content>
         </Accordion>
       </Group>
-      <Button size="m" onClick={() => routeNavigator.replace({pathname: '/abilities'})} className='back-button'>Назад</Button>
+      <Button size="m" onClick={() => routeNavigator.push({pathname: '/abilities'})} className='back-button'>Назад</Button>
     </Panel>
   );
 };

@@ -46,7 +46,7 @@ const rules = [
   },
   {
     title: '11. Снаряжение',
-    link: 'invetory-rule'
+    link: 'equipment'
   },
   {
     title: '12. Расы',

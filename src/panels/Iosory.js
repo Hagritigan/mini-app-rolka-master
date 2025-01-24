@@ -8,7 +8,7 @@ export const Iosory = ({ id }) => {
   return (
     <Panel id={id}>
         <PanelHeader>Ёсо-рю</PanelHeader>
-        <Button size="m" onClick={() => routeNavigator.replace({pathname: '/abilities'})} className='back-button'>Назад</Button>
+        <Button size="m" onClick={() => routeNavigator.push({pathname: '/abilities'})} className='back-button'>Назад</Button>
         <Group>
             <Div>
                 <div style={{fontSize: '18px'}}><b>Стихийное фехтование</b></div>
@@ -207,7 +207,7 @@ export const Iosory = ({ id }) => {
                 </ul>
             </Div>
         </Group>
-        <Button size="m" onClick={() => routeNavigator.replace({pathname: '/abilities'})} className='back-button'>Назад</Button>
+        <Button size="m" onClick={() => routeNavigator.push({pathname: '/abilities'})} className='back-button'>Назад</Button>
     </Panel>
   );
 };

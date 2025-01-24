@@ -8,7 +8,7 @@ export const Df = ({ id }) => {
   return (
     <Panel id={id}>
         <PanelHeader>Дьявольские фрукты</PanelHeader>
-        <Button size="m" onClick={() => routeNavigator.replace({pathname: '/abilities'})} className='back-button'>Назад</Button>
+        <Button size="m" onClick={() => routeNavigator.push({pathname: '/abilities'})} className='back-button'>Назад</Button>
         <Group>
             <Div>
                 <div style={{fontSize: '18px'}}><b>5.15.1 Правила Дьявольских Фруктов:</b></div>
@@ -115,7 +115,7 @@ export const Df = ({ id }) => {
                 </ol>
             </Div>
         </Group>
-        <Button size="m" onClick={() => routeNavigator.replace({pathname: '/abilities'})} className='back-button'>Назад</Button>
+        <Button size="m" onClick={() => routeNavigator.push({pathname: '/abilities'})} className='back-button'>Назад</Button>
     </Panel>
   );
 };
