@@ -42,7 +42,7 @@ const rules = [
   },
   {
     title: '10. Сайфер Пол',
-    link: 'cp-rule'
+    link: 'cp'
   },
   {
     title: '11. Снаряжение',

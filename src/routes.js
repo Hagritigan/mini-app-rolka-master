@@ -27,7 +27,8 @@ export const DEFAULT_VIEW_PANELS = {
   RESTRICTIONS: 'restrictions',
   PIRATES: 'pirates',
   RA: 'ra',
-  MARINE: 'marine'
+  MARINE: 'marine',
+  CP: 'cp',
 };
 
 export const routes = RoutesConfig.create([
@@ -50,6 +51,7 @@ export const routes = RoutesConfig.create([
       createPanel(DEFAULT_VIEW_PANELS.PIRATES, `/${DEFAULT_VIEW_PANELS.PIRATES}`, []),
       createPanel(DEFAULT_VIEW_PANELS.RA, `/${DEFAULT_VIEW_PANELS.RA}`, []),
       createPanel(DEFAULT_VIEW_PANELS.MARINE, `/${DEFAULT_VIEW_PANELS.MARINE}`, []),
+      createPanel(DEFAULT_VIEW_PANELS.CP, `/${DEFAULT_VIEW_PANELS.CP}`, []),
     ]),
   ]),
 ]);
