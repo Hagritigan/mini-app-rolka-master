@@ -8,7 +8,7 @@ export const Haki = ({ id }) => {
   return (
     <Panel id={id}>
         <PanelHeader>Воля (Хаки)</PanelHeader>
-        <Button size="m" onClick={() => routeNavigator.push({pathname: '/abilities'})} className='back-button'>Назад</Button>
+        <Button size="m" onClick={() => routeNavigator.back()} className='back-button'>Назад</Button>
         <Group>
             <Div>
                 <b>5.17.1 Воля бывает трёх типов: В</b>оля <b>Н</b>аблюдения, которая даёт обладателю «шестое чувство» и способности к предвидению; 
@@ -145,7 +145,7 @@ export const Haki = ({ id }) => {
                 </ul>
             </Div>
         </Group>
-        <Button size="m" onClick={() => routeNavigator.push({pathname: '/abilities'})} className='back-button'>Назад</Button>
+        <Button size="m" onClick={() => routeNavigator.back()} className='back-button'>Назад</Button>
     </Panel>
   );
 };

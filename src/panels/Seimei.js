@@ -8,7 +8,7 @@ export const Seimei = ({ id }) => {
   return (
     <Panel id={id}>
         <PanelHeader>Сэймэй Кикан</PanelHeader>
-        <Button size="m" onClick={() => routeNavigator.push({pathname: '/abilities'})} className='back-button'>Назад</Button>
+        <Button size="m" onClick={() => routeNavigator.back()} className='back-button'>Назад</Button>
         <Group>
             <Div>
                 <div className='gray-block text-center'>
@@ -165,7 +165,7 @@ export const Seimei = ({ id }) => {
                 </ul>
             </Div>
         </Group>
-        <Button size="m" onClick={() => routeNavigator.push({pathname: '/abilities'})} className='back-button'>Назад</Button>
+        <Button size="m" onClick={() => routeNavigator.back()} className='back-button'>Назад</Button>
     </Panel>
   );
 };
