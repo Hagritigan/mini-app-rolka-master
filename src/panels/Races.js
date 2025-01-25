@@ -193,7 +193,8 @@ export const Races = ({ id }) => {
                                 Логично было бы предположить, что у рыболюдей имеются и свои слабости, например, некоторые виды подвержены более серьёзным психологическим травмам, например, Икарос Муч страшно боялся огня, 
                                 от его вида он загибался и высушивался. Особи, особо отличные слухом и другими органами восприятия так же могут страдать от этой особенности.
                                 <br />
-                                <center><strong><a href="https://vk.com/pages?oid=-36291248&amp;p=%D0%9A%D0%B0%D1%80%D0%B0%D1%82%D1%8D_%D0%A0%D1%8B%D0%B1%D0%BE%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9&amp;hash=1f136f0094a60e2af4" className='link'>Каратэ Рыболюдей</a>&nbsp;|</strong>&nbsp;<strong><a href="https://vk.com/pages?oid=-36291248&amp;p=%D0%94%D0%B6%D0%B8%D1%83-%D0%B4%D0%B6%D0%B8%D1%82%D1%81%D1%83_%D0%A0%D1%8B%D0%B1%D0%BE%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9&amp;hash=1f136f0094a60e2af4" className='link'>Джиу-джитсу Рыболюдей</a></strong></center>
+                                <br />
+                                <center><strong><span onClick={() => routeNavigator.push({pathname: '/fishmankarate'})} className='link'>Особые способности рыболюдей</span></strong></center>
                                 </div>
                             </div>
                         </Div>
@@ -215,7 +216,8 @@ export const Races = ({ id }) => {
                             смог признать силу Хезо, а Кокоро использовала плавники своего хвоста как кнут. Русалки самые быстрые пловцы в море, о чем свидетельствует Кейми, которая обогнала даже летающую рыбу 
                             и рыболюдей. Русалки имеют возможность говорить с рыбами с помощью звуковой волны, которая слышна только им.
                             <br />
-                            <center><strong><a href="https://vk.com/pages?oid=-36291248&amp;p=%D0%A0%D1%83%D1%81%D0%B0%D0%BB%D0%B8%D0%B9_%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9_%D1%81%D1%82%D0%B8%D0%BB%D1%8C&amp;hash=1f136f0094a60e2af4" className='link'>Русалий боевой стиль</a>&nbsp;|</strong>&nbsp;<strong><a href="https://vk.com/pages?oid=-36291248&amp;p=%D0%9D%D0%B8%D0%BD%D0%B3%D1%91_%D0%93%D1%83%D0%B4%D0%B7%D1%8E%D1%86%D1%83&amp;hash=1f136f0094a60e2af4" className='link'>Нингё Гудзюцу</a></strong></center>
+                            <br />
+                            <center><strong><span onClick={() => routeNavigator.push({pathname: '/mermaidstyle'})} className='link'>Особые способности русалок</span></strong></center>
                             </div>
                         </Div>
                     </Accordion.Content>
