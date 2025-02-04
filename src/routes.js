@@ -33,6 +33,7 @@ export const DEFAULT_VIEW_PANELS = {
   RACES: 'races',
   FISHMANKARATE: 'fishmankarate',
   MERMAIDSTYLE: 'mermaidstyle',
+  POWERTABLET: 'powertablet'
 };
 
 export const routes = RoutesConfig.create([
@@ -60,6 +61,7 @@ export const routes = RoutesConfig.create([
       createPanel(DEFAULT_VIEW_PANELS.RACES, `/${DEFAULT_VIEW_PANELS.RACES}`, []),
       createPanel(DEFAULT_VIEW_PANELS.FISHMANKARATE, `/${DEFAULT_VIEW_PANELS.FISHMANKARATE}`, []),
       createPanel(DEFAULT_VIEW_PANELS.MERMAIDSTYLE, `/${DEFAULT_VIEW_PANELS.MERMAIDSTYLE}`, []),
+      createPanel(DEFAULT_VIEW_PANELS.POWERTABLET, `/${DEFAULT_VIEW_PANELS.POWERTABLET}`, []),
     ]),
   ]),
 ]);

@@ -20,3 +20,4 @@ export { Equipment } from './Equipment';
 export { Races } from './Races';
 export { Fishmankarate } from './Fishmankarate';
 export { Mermaidstyle } from './Mermaidstyle';
+export { Powertablet } from './PowerTablet';
