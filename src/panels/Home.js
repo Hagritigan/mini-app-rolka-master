@@ -54,11 +54,11 @@ const rules = [
   },
   {
     title: '13. Система восстановления',
-    link: 'rebild-rule'
+    link: 'rebild'
   },
   {
     title: '14. Интеграция канонов в ролевую',
-    link: 'canon-rule'
+    link: 'canon'
   },
 ];
 

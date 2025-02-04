@@ -21,3 +21,5 @@ export { Races } from './Races';
 export { Fishmankarate } from './Fishmankarate';
 export { Mermaidstyle } from './Mermaidstyle';
 export { Powertablet } from './PowerTablet';
+export { Rebild } from './Rebild';
+export { Canon } from './Canon';
