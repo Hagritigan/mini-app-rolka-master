@@ -5,7 +5,7 @@ import { useActiveVkuiLocation } from '@vkontakte/vk-mini-apps-router';
 
 import { Persik, Home, Registration, Charcard, Game, Revards, Ld, Abilities, Cyborgs, 
   Df, Haki, Seimei, Iosory, Restrictions, Pirates, Ra, Marine, Cp, Equipment, Races, 
-  Fishmankarate, Mermaidstyle, Powertablet, Rebild, Canon } from './panels';
+  Fishmankarate, Mermaidstyle, Powertablet, Rebild, Canon, Requiem } from './panels';
 import { DEFAULT_VIEW_PANELS } from './routes';
 
 export const App = () => {
@@ -42,6 +42,7 @@ export const App = () => {
           <Powertablet id="powertablet" />
           <Rebild id="rebild" />
           <Canon id="canon" />
+          <Requiem id="requiem" />
           <Charcard id="charcard" />
         </View>
       </SplitCol>

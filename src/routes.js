@@ -36,6 +36,7 @@ export const DEFAULT_VIEW_PANELS = {
   POWERTABLET: 'powertablet',
   REBILD: 'rebild',
   CANON: 'canon',
+  REQUIEM: 'requiem',
 };
 
 export const routes = RoutesConfig.create([
@@ -66,6 +67,7 @@ export const routes = RoutesConfig.create([
       createPanel(DEFAULT_VIEW_PANELS.POWERTABLET, `/${DEFAULT_VIEW_PANELS.POWERTABLET}`, []),
       createPanel(DEFAULT_VIEW_PANELS.REBILD, `/${DEFAULT_VIEW_PANELS.REBILD}`, []),
       createPanel(DEFAULT_VIEW_PANELS.CANON, `/${DEFAULT_VIEW_PANELS.CANON}`, []),
+      createPanel(DEFAULT_VIEW_PANELS.REQUIEM, `/${DEFAULT_VIEW_PANELS.REQUIEM}`, []),
     ]),
   ]),
 ]);

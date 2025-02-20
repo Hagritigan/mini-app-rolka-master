@@ -60,6 +60,10 @@ const rules = [
     title: '14. Интеграция канонов в ролевую',
     link: 'canon'
   },
+  {
+    title: '15. Реквием',
+    link: 'requiem'
+  },
 ];
 
 export const Home = ({ id }) => {
