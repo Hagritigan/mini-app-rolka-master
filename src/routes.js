@@ -37,6 +37,7 @@ export const DEFAULT_VIEW_PANELS = {
   REBILD: 'rebild',
   CANON: 'canon',
   REQUIEM: 'requiem',
+  REQUIEMQUESTS: 'requiemquests'
 };
 
 export const routes = RoutesConfig.create([
@@ -68,6 +69,7 @@ export const routes = RoutesConfig.create([
       createPanel(DEFAULT_VIEW_PANELS.REBILD, `/${DEFAULT_VIEW_PANELS.REBILD}`, []),
       createPanel(DEFAULT_VIEW_PANELS.CANON, `/${DEFAULT_VIEW_PANELS.CANON}`, []),
       createPanel(DEFAULT_VIEW_PANELS.REQUIEM, `/${DEFAULT_VIEW_PANELS.REQUIEM}`, []),
+      createPanel(DEFAULT_VIEW_PANELS.REQUIEMQUESTS, `/${DEFAULT_VIEW_PANELS.REQUIEMQUESTS}`, []),
     ]),
   ]),
 ]);

@@ -142,6 +142,8 @@ export const Requiem = ({ id }) => {
     </Accordion>
   );
 
+  const currentPage = 'start';
+
   return (
     <Panel id={id}>
         <PanelHeader>Реквием</PanelHeader>
