@@ -25,3 +25,5 @@ export { Rebild } from './Rebild';
 export { Canon } from './Canon';
 export { Requiem } from './Requiem';
 export { RequiemQuests } from './RequiemQuests';
+export { RequiemShop } from './RequiemShop';
+export { RequiemWallet } from './RequiemWallet';

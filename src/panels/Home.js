@@ -83,9 +83,6 @@ export const Home = ({ id }) => {
         <Div className="some">
           {listRules}
         </Div>
-        {/* <Div>
-          <a href="https://developer.mozilla.org">MDN</a>
-        </Div> */}
       </Group>
     </Panel>
   );

@@ -95,10 +95,31 @@ const ranks = [
     },
 ];
 
+const navigation = [
+    {
+      title: 'Задания',
+      link: 'requiemquests',
+    },
+    {
+      title: 'Лавка',
+      link: 'requiemshop',
+    },
+    {
+      title: 'Кошелёк',
+      link: 'requiemwallet',
+    },
+]
+
 
 export const Requiem = ({ id }) => {
   const routeNavigator = useRouteNavigator();
   const open = true;
+
+    const navig = navigation.map((rule) => 
+      <Button className='button' stretched size="l" mode="secondary" onClick={() => routeNavigator.push({pathname: `/${rule.link}`})} key={rule.link}>
+        { rule.title }
+      </Button>
+    );
 
   const ranksArray = ranks.map((rank) => 
     <Accordion open key={rank.name}>
@@ -150,6 +171,7 @@ export const Requiem = ({ id }) => {
         <Button size="m" onClick={() => routeNavigator.back()} className='back-button'>Назад</Button>
         <Group>
             <Div>
+                {navig}
                 <div className='gray-block text-center'>
                     Реквием - это тайная организация наемников, в которую может вступить каждый.
                 </div>
@@ -259,6 +281,7 @@ export const Requiem = ({ id }) => {
                 </center>
             </Div>
         </Group>
+        <Button size="m" onClick={() => routeNavigator.back()} className='back-button'>Назад</Button>
     </Panel>
   );
 };

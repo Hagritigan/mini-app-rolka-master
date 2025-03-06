@@ -30,10 +30,31 @@ const ranks = [
     },
 ];
 
+const navigation = [
+    {
+      title: 'Основы',
+      link: 'requiem',
+    },
+    {
+      title: 'Лавка',
+      link: 'requiemshop',
+    },
+    {
+      title: 'Кошелёк',
+      link: 'requiemwallet',
+    },
+];
+
 
 export const RequiemQuests = ({ id }) => {
   const routeNavigator = useRouteNavigator();
   const open = true;
+
+    const navig = navigation.map((rule) => 
+      <Button className='button' stretched size="l" mode="secondary" onClick={() => routeNavigator.push({pathname: `/${rule.link}`})} key={rule.link}>
+        { rule.title }
+      </Button>
+    );
 
   const ranksArray = ranks.map((rank) => 
     <Accordion open key={rank.name}>
@@ -56,6 +77,7 @@ export const RequiemQuests = ({ id }) => {
         <Button size="m" onClick={() => routeNavigator.back()} className='back-button'>Назад</Button>
         <Group>
             <Div>
+                {navig}
                 <div className='gray-block text-center'>
                     Все задания обозначаются буквой.
                 </div>
@@ -123,8 +145,68 @@ export const RequiemQuests = ({ id }) => {
                     <li><span class="l">Золотая - наиболее распространенный номинал, который считается универсальным и на основании которого строятся рынок.</span></li>
                     <li><span class="l">Платиновая - выдается за исключительные заслуги пред Реквиемом и ценится наиболее высоко. Данную монету невозможно получить путем обмена, но возможно заслужить.</span></li>
                 </ul>
+                <br />
+                <center class="desktop-only">
+                    <strong>Для вашего удобства предоставлена таблица эквивалентности монет:</strong>
+                </center>
+                <table class="desktop-only">
+                    <tbody>
+                        <tr>
+                            <td>↓ Продажа | Покупка →</td>
+                            <td>Медная</td>
+                            <td>Бронзовая</td>
+                            <td>Серебряная</td>
+                            <td>Золотая</td>
+                        </tr>
+                        <tr>
+                            <td>Медная</td>
+                            <td>N</td>
+                            <td>2</td>
+                            <td>4</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Бронзовая</td>
+                            <td>N</td>
+                            <td>N</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Серебряная</td>
+                            <td>N</td>
+                            <td>N</td>
+                            <td>N</td>
+                            <td>2</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br />
+                <center class="mobile-only">
+                    <strong>Эквиваленты для обмена момент:</strong>
+                </center>
+                <div class="mobile-only">
+                    <br />
+                        <strong>Бронзовая момента</strong> стоит 2 медные монеты.
+                    <br />
+                    <br />
+                        <strong>Серебряная монета</strong> стоит 4 медные или 2 бронзовые монеты.
+                    <br />
+                    <br />
+                        <strong>Золотая монета</strong> стоит 6 медных или 3 бронзовые монеты или 2 серебряные монеты.
+                </div>
+                <div className='gray-block'>
+                    <p>Таким образом для того, чтобы получить, например,&nbsp;<strong>Одну</strong>&nbsp;золотую монету, вам необходимо подготовить и отдать&nbsp;<strong>Шесть</strong>&nbsp;медных монет.<br />Как понятно, обратного обмена нет, поэтому будьте внимательны, когда пожелаете потратить заработанные монеты в зависимости от ваших нужд.</p>
+                </div>
+                <br />
+                <div style={{fontSize: '18px'}}><b>Правила Организации</b></div>
+                <br />
+                <center>До 4 ранга вы можете творить что угодно, где угодно и когда угодно. Получайте награды за голову, уничтожайте всех и вся, создавайте команды, возглавляйте их. Что душе угодно. Можете получать и поднебесные награды за голову.</center><center>По достижению 4 ранга Вам уже нельзя иметь команду Пиратов/РА и прочего. Теперь вы представитель Организации, у вас есть новые обязанности, которым вы должны следовать и дальше двигаться по карьере. Вы можете состоять в альянсе с теми или иными командами. РА/Пираты/Шичибукаи и т.д., и, само собой, быть частью их команды. Но никак не капитаном.</center>
+                <p>&nbsp;</p>
+                <center>Реквием - это организация, которая объединена общей целью - наживой. Здесь нет подчиненных и нет послушников. Принимая клятву реквиема вы принимаете устои общего дела, которые направлены на дисциплину и исключения беспорядков. Для всех доступна единая "доска" заданий и только вам решать, какие из них выполнять.</center>
             </Div>
         </Group>
+        <Button size="m" onClick={() => routeNavigator.back()} className='back-button'>Назад</Button>
     </Panel>
   );
 };
