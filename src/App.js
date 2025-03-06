@@ -3,7 +3,7 @@ import bridge from '@vkontakte/vk-bridge';
 import { View, SplitLayout, SplitCol, ScreenSpinner } from '@vkontakte/vkui';
 import { useActiveVkuiLocation } from '@vkontakte/vk-mini-apps-router';
 
-import { Persik, Home, Registration, Charcard, Game, Revards, Ld, Abilities, Cyborgs, 
+import { Persik, Home, Registration, Game, Revards, Ld, Abilities, Cyborgs, 
   Df, Haki, Seimei, Iosory, Restrictions, Pirates, Ra, Marine, Cp, Equipment, Races, 
   Fishmankarate, Mermaidstyle, Powertablet, Rebild, Canon, Requiem, RequiemQuests, 
   RequiemShop, RequiemWallet } from './panels';
@@ -47,7 +47,7 @@ export const App = () => {
           <RequiemQuests id="requiemquests" />
           <RequiemShop id="requiemshop" />
           <RequiemWallet id="requiemwallet" />
-          <Charcard id="charcard" />
+          {/* <Charcard id="charcard" /> */}
         </View>
       </SplitCol>
     </SplitLayout>
